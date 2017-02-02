@@ -44,7 +44,7 @@ nav {
 
 #articleheader {
   font-size: 18px;
-  font-weight: normal;
+  /*font-weight: normal;*/
   letter-spacing: 7px;
   text-align: center;
     float: left;

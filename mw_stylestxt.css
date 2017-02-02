@@ -15,8 +15,14 @@
 body {
     font-family: Tahoma, Geneva, sans-serif;
 }
+header#articleheader h1 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 7px;
+  text-align: center;
+}
 
-nav {
+nav  {
     background-color: rgb(125, 120, 89);
     line-height: 3em;
     list-style-type: none;
@@ -36,10 +42,46 @@ ul {
     list-style-type: none;
 }
 
+/*#leftsection>p {
+    font-size: 22px;
+}
 
-#leftsection > p {
-  font-size: 22px;
-}
 #firstpar:first-line {
-  text-transform: uppercase;
-}
+    text-transform: uppercase;
+}*/
+blockquote {
+   background-color: rgb(131, 121, 36);
+   color: white;
+   font-family: Comic Sans MS, Times, cursive;
+ }
+ /*blockquote q::before{
+   content: open-quote;
+ }
+ blockquote q::after{
+   content: close-quote;
+ }*/
+ q {
+   quotes: "\0022";
+ }
+ #rightsection h1 {
+   font-size: 22px;
+   font-kerning: 3px;
+   font-weight: normal;
+   text-align: center;
+  }
+  #rightsection h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: normal;
+  }
+  #rightsection p {
+    color: grey;
+    font-size: 14px;
+    text-align: justify;
+  }
+  footer address {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+  }
